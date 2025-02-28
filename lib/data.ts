@@ -78,6 +78,8 @@ export const projectsData = [
       "Built a full-stack pizza ordering website using React, Node.js, and SQLite. Optimized backend cold start time by 98% ",
     tags: ["React", "Node.js", "Fastify", "Sqlite"],
     imageUrl: toppizzaImg,
+    sourceCodeUrl: "https://github.com/lokeshkarra/toppizza-client-app.git",
+    liveUrl: "https://thetoppizza.netlify.app/",
   },
   {
     title: "Twitter Spaces Ai Bot",
@@ -85,6 +87,8 @@ export const projectsData = [
       "Built an automated bot to transcribe and summarize Twitter Spaces audio using twspace-dl, AssemblyAI, and Ollama LLaMA2.",
     tags: ["Python", "Assembly Ai", "LLaMA2 llm", "Tweepy"],
     imageUrl: spacesImg,
+    sourceCodeUrl: "https://github.com/lokeshkarra/TwitterSpacesAiBot.git",
+    liveUrl: "https://github.com/lokeshkarra/TwitterSpacesAiBot.git",
   },
   {
     title: "OpenInApp iOS App",
@@ -92,6 +96,8 @@ export const projectsData = [
       "Built an iOS app with tab navigation, Integrated API for real-time metrics and implemented a dynamic chart for monthly clicks visualization.",
     tags: ["Swift", "SwiftUI"],
     imageUrl: iosappImg,
+    sourceCodeUrl: "https://github.com/lokeshkarra/IosAppAssignment.git",
+    liveUrl: "https://github.com/lokeshkarra/IosAppAssignment.git",
   },
 ] as const;
 
