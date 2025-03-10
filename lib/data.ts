@@ -7,7 +7,8 @@ import { MdOutlineDeveloperMode } from "react-icons/md";
 import spacesImg from "@/public/spaces.jpg";
 import iosappImg from "@/public/iosapp.png";
 import toppizzaImg from "@/public/toppizza.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import springbootapiImg from "@/public/springbootapi.webp"
+
 
 export const links = [
   {
@@ -82,13 +83,21 @@ export const projectsData = [
     liveUrl: "https://thetoppizza.netlify.app/",
   },
   {
+    title: "Spring Security Rest Api",
+    description:
+      "Built a secure authentication system, optimized for high performance, handling 84 requests/sec. ",
+    tags: ["React", "Node.js", "Fastify", "Sqlite"],
+    imageUrl: springbootapiImg,
+    sourceCodeUrl: "https://github.com/lokeshkarra/springboot-auth-performance.git",
+    
+  },
+  {
     title: "Twitter Spaces Ai Bot",
     description:
       "Built an automated bot to transcribe and summarize Twitter Spaces audio using twspace-dl, AssemblyAI, and Ollama LLaMA2.",
     tags: ["Python", "Assembly Ai", "LLaMA2 llm", "Tweepy"],
     imageUrl: spacesImg,
     sourceCodeUrl: "https://github.com/lokeshkarra/TwitterSpacesAiBot.git",
-    liveUrl: "https://github.com/lokeshkarra/TwitterSpacesAiBot.git",
   },
   {
     title: "OpenInApp iOS App",
@@ -97,7 +106,6 @@ export const projectsData = [
     tags: ["Swift", "SwiftUI"],
     imageUrl: iosappImg,
     sourceCodeUrl: "https://github.com/lokeshkarra/IosAppAssignment.git",
-    liveUrl: "https://github.com/lokeshkarra/IosAppAssignment.git",
   },
 ] as const;
 
@@ -105,13 +113,17 @@ export const skillsData = [
   "HTML",
   "CSS",
   "JavaScript",
+  "Java",
+  "Python",
+  "Kafka",
   "React",
   "Node.js",
   "Express",
-  "Git",
+  "Spring Boot",
   "MongoDB",
   "SQL",
   "PostgreSQL",
-  "Python",
-  "Java",
+  "Git",
+  "Docker",
+  "AI/ML"
 ] as const;
